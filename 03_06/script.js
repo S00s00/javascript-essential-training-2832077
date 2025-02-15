@@ -20,5 +20,8 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
-
 console.log("The backpack object:", backpack);
+backpack.toggleLid(true);
+console.log("The backpack object:", backpack);
+var query = "pocketNum";
+console.log("The pocketNum value:", backpack[query]);

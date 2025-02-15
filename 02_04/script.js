@@ -5,7 +5,7 @@ import backpack from "./backpack.js";
 
 const markup = (backpack) => {
   return `
-  <div>
+  <section>
     <h3>${backpack.name}</h3>
     <ul>
       <li>Volume: ${backpack.volume}</li>
@@ -16,10 +16,11 @@ const markup = (backpack) => {
   } </li>
       <li>Top lid: ${backpack.lidOpen ? "Open" : "Closed"}</li>
     </ul>
-  </div>
+  </section>
 `;
 };
 
 const main = document.createElement("main");
 main.innerHTML = markup(backpack);
 document.body.appendChild(main);
+

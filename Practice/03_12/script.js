@@ -17,7 +17,6 @@ const somepack = new Somepack(
     20,
     20,
     true,
-    "2025-01-01",
     "something"
 );
 

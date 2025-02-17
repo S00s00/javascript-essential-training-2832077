@@ -1,4 +1,4 @@
-import Backpack from "../../03_13/Backpack";
+import Backpack from "./Backpack.js";
 
 // eslint-disable-next-line no-unused-vars
 class Somepack extends Backpack{
@@ -10,10 +10,9 @@ class Somepack extends Backpack{
             strapLengthL,
             strapLengthR,
             lidOpen,
-            dateAcquired,
             somefeature
           ){
-            super( name,volume,color,pocketNum,strapLengthL,strapLengthR,lidOpen,dateAcquired);
+            super( name,volume,color,pocketNum,strapLengthL,strapLengthR,lidOpen);
             this.somefeature =somefeature;
           }
 
